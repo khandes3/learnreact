@@ -1,2 +1,15 @@
-body {
+.body {
+    font-family: Roboto, sans-serif;
 }
+
+.todo-item {
+    user-select: none;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #cecece;
+}
+
+input[type=checkbox] {
+    margin-right: 10px;
+}
+
